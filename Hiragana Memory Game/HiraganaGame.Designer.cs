@@ -458,7 +458,7 @@
             this.tabControl1.Location = new System.Drawing.Point(18, 219);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(388, 317);
+            this.tabControl1.Size = new System.Drawing.Size(388, 209);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -471,14 +471,14 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(380, 291);
+            this.tabPage1.Size = new System.Drawing.Size(380, 183);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // noHintButton
             // 
-            this.noHintButton.Location = new System.Drawing.Point(74, 238);
+            this.noHintButton.Location = new System.Drawing.Point(96, 148);
             this.noHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.noHintButton.Name = "noHintButton";
             this.noHintButton.Size = new System.Drawing.Size(82, 20);
@@ -489,7 +489,7 @@
             // 
             // noCheckButton
             // 
-            this.noCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.noCheckButton.Location = new System.Drawing.Point(231, 148);
             this.noCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.noCheckButton.Name = "noCheckButton";
             this.noCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -500,16 +500,17 @@
             // 
             // noTextBox
             // 
-            this.noTextBox.Location = new System.Drawing.Point(209, 217);
+            this.noTextBox.Location = new System.Drawing.Point(231, 117);
             this.noTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.noTextBox.Name = "noTextBox";
             this.noTextBox.Size = new System.Drawing.Size(82, 20);
             this.noTextBox.TabIndex = 52;
+            this.noTextBox.TextChanged += new System.EventHandler(this.noTextBox_TextChanged);
             // 
             // noPictureBox
             // 
             this.noPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("noPictureBox.Image")));
-            this.noPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.noPictureBox.Location = new System.Drawing.Point(63, 6);
             this.noPictureBox.Name = "noPictureBox";
             this.noPictureBox.Size = new System.Drawing.Size(145, 131);
             this.noPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -521,7 +522,7 @@
             // 
             this.noLabel.AutoSize = true;
             this.noLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.noLabel.Location = new System.Drawing.Point(191, 96);
+            this.noLabel.Location = new System.Drawing.Point(213, 6);
             this.noLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.noLabel.Name = "noLabel";
             this.noLabel.Size = new System.Drawing.Size(123, 108);
@@ -538,15 +539,16 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(380, 291);
+            this.tabPage2.Size = new System.Drawing.Size(380, 183);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // aPictureBox
             // 
+            this.aPictureBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.aPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("aPictureBox.Image")));
-            this.aPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.aPictureBox.Location = new System.Drawing.Point(63, 6);
             this.aPictureBox.Name = "aPictureBox";
             this.aPictureBox.Size = new System.Drawing.Size(145, 131);
             this.aPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -556,7 +558,8 @@
             // 
             // aHintButton
             // 
-            this.aHintButton.Location = new System.Drawing.Point(74, 238);
+            this.aHintButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.aHintButton.Location = new System.Drawing.Point(96, 148);
             this.aHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.aHintButton.Name = "aHintButton";
             this.aHintButton.Size = new System.Drawing.Size(82, 20);
@@ -567,9 +570,10 @@
             // 
             // aLabel
             // 
+            this.aLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.aLabel.AutoSize = true;
             this.aLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.aLabel.Location = new System.Drawing.Point(191, 96);
+            this.aLabel.Location = new System.Drawing.Point(213, 6);
             this.aLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.aLabel.Name = "aLabel";
             this.aLabel.Size = new System.Drawing.Size(123, 108);
@@ -578,15 +582,18 @@
             // 
             // aTextBox
             // 
-            this.aTextBox.Location = new System.Drawing.Point(209, 217);
+            this.aTextBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.aTextBox.Location = new System.Drawing.Point(231, 117);
             this.aTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.aTextBox.Name = "aTextBox";
             this.aTextBox.Size = new System.Drawing.Size(82, 20);
             this.aTextBox.TabIndex = 57;
+            this.aTextBox.TextChanged += new System.EventHandler(this.aTextBox_TextChanged);
             // 
             // aCheckButton
             // 
-            this.aCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.aCheckButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.aCheckButton.Location = new System.Drawing.Point(231, 148);
             this.aCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.aCheckButton.Name = "aCheckButton";
             this.aCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -613,7 +620,7 @@
             // kiPictureBox
             // 
             this.kiPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("kiPictureBox.Image")));
-            this.kiPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.kiPictureBox.Location = new System.Drawing.Point(63, 6);
             this.kiPictureBox.Name = "kiPictureBox";
             this.kiPictureBox.Size = new System.Drawing.Size(145, 131);
             this.kiPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -623,7 +630,7 @@
             // 
             // kiHintButton
             // 
-            this.kiHintButton.Location = new System.Drawing.Point(74, 238);
+            this.kiHintButton.Location = new System.Drawing.Point(96, 148);
             this.kiHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.kiHintButton.Name = "kiHintButton";
             this.kiHintButton.Size = new System.Drawing.Size(82, 20);
@@ -636,7 +643,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(191, 96);
+            this.label1.Location = new System.Drawing.Point(213, 6);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(117, 108);
@@ -645,7 +652,7 @@
             // 
             // kiTextBox
             // 
-            this.kiTextBox.Location = new System.Drawing.Point(209, 217);
+            this.kiTextBox.Location = new System.Drawing.Point(231, 117);
             this.kiTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.kiTextBox.Name = "kiTextBox";
             this.kiTextBox.Size = new System.Drawing.Size(82, 20);
@@ -653,7 +660,7 @@
             // 
             // kiCheckButton
             // 
-            this.kiCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.kiCheckButton.Location = new System.Drawing.Point(231, 148);
             this.kiCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.kiCheckButton.Name = "kiCheckButton";
             this.kiCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -680,7 +687,7 @@
             // suPictureBox
             // 
             this.suPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("suPictureBox.Image")));
-            this.suPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.suPictureBox.Location = new System.Drawing.Point(63, 6);
             this.suPictureBox.Name = "suPictureBox";
             this.suPictureBox.Size = new System.Drawing.Size(145, 131);
             this.suPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -690,7 +697,7 @@
             // 
             // suHintButton
             // 
-            this.suHintButton.Location = new System.Drawing.Point(74, 238);
+            this.suHintButton.Location = new System.Drawing.Point(96, 148);
             this.suHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.suHintButton.Name = "suHintButton";
             this.suHintButton.Size = new System.Drawing.Size(82, 20);
@@ -703,7 +710,7 @@
             // 
             this.suLabel.AutoSize = true;
             this.suLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.suLabel.Location = new System.Drawing.Point(191, 96);
+            this.suLabel.Location = new System.Drawing.Point(213, 6);
             this.suLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.suLabel.Name = "suLabel";
             this.suLabel.Size = new System.Drawing.Size(126, 108);
@@ -712,7 +719,7 @@
             // 
             // suTextBox
             // 
-            this.suTextBox.Location = new System.Drawing.Point(209, 217);
+            this.suTextBox.Location = new System.Drawing.Point(231, 117);
             this.suTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.suTextBox.Name = "suTextBox";
             this.suTextBox.Size = new System.Drawing.Size(82, 20);
@@ -720,7 +727,7 @@
             // 
             // suCheckBox
             // 
-            this.suCheckBox.Location = new System.Drawing.Point(209, 241);
+            this.suCheckBox.Location = new System.Drawing.Point(231, 148);
             this.suCheckBox.Margin = new System.Windows.Forms.Padding(2);
             this.suCheckBox.Name = "suCheckBox";
             this.suCheckBox.Size = new System.Drawing.Size(82, 20);
@@ -747,7 +754,7 @@
             // tePictureBox
             // 
             this.tePictureBox.Image = ((System.Drawing.Image)(resources.GetObject("tePictureBox.Image")));
-            this.tePictureBox.Location = new System.Drawing.Point(41, 96);
+            this.tePictureBox.Location = new System.Drawing.Point(63, 6);
             this.tePictureBox.Name = "tePictureBox";
             this.tePictureBox.Size = new System.Drawing.Size(145, 131);
             this.tePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -757,7 +764,7 @@
             // 
             // teHintButton
             // 
-            this.teHintButton.Location = new System.Drawing.Point(74, 238);
+            this.teHintButton.Location = new System.Drawing.Point(96, 148);
             this.teHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.teHintButton.Name = "teHintButton";
             this.teHintButton.Size = new System.Drawing.Size(82, 20);
@@ -770,7 +777,7 @@
             // 
             this.teLabel.AutoSize = true;
             this.teLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.teLabel.Location = new System.Drawing.Point(191, 96);
+            this.teLabel.Location = new System.Drawing.Point(213, 6);
             this.teLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.teLabel.Name = "teLabel";
             this.teLabel.Size = new System.Drawing.Size(120, 108);
@@ -779,7 +786,7 @@
             // 
             // teTextBox
             // 
-            this.teTextBox.Location = new System.Drawing.Point(209, 217);
+            this.teTextBox.Location = new System.Drawing.Point(231, 117);
             this.teTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.teTextBox.Name = "teTextBox";
             this.teTextBox.Size = new System.Drawing.Size(82, 20);
@@ -787,7 +794,7 @@
             // 
             // teCheckButton
             // 
-            this.teCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.teCheckButton.Location = new System.Drawing.Point(231, 148);
             this.teCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.teCheckButton.Name = "teCheckButton";
             this.teCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -814,7 +821,7 @@
             // kaPictureBox
             // 
             this.kaPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("kaPictureBox.Image")));
-            this.kaPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.kaPictureBox.Location = new System.Drawing.Point(63, 6);
             this.kaPictureBox.Name = "kaPictureBox";
             this.kaPictureBox.Size = new System.Drawing.Size(145, 131);
             this.kaPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -824,7 +831,7 @@
             // 
             // kaHintButton
             // 
-            this.kaHintButton.Location = new System.Drawing.Point(74, 238);
+            this.kaHintButton.Location = new System.Drawing.Point(96, 148);
             this.kaHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.kaHintButton.Name = "kaHintButton";
             this.kaHintButton.Size = new System.Drawing.Size(82, 20);
@@ -837,7 +844,7 @@
             // 
             this.kaLabel.AutoSize = true;
             this.kaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kaLabel.Location = new System.Drawing.Point(191, 96);
+            this.kaLabel.Location = new System.Drawing.Point(213, 6);
             this.kaLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.kaLabel.Name = "kaLabel";
             this.kaLabel.Size = new System.Drawing.Size(123, 108);
@@ -846,7 +853,7 @@
             // 
             // kaTextBox
             // 
-            this.kaTextBox.Location = new System.Drawing.Point(209, 217);
+            this.kaTextBox.Location = new System.Drawing.Point(231, 117);
             this.kaTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.kaTextBox.Name = "kaTextBox";
             this.kaTextBox.Size = new System.Drawing.Size(82, 20);
@@ -854,7 +861,7 @@
             // 
             // kaCheckButton
             // 
-            this.kaCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.kaCheckButton.Location = new System.Drawing.Point(231, 148);
             this.kaCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.kaCheckButton.Name = "kaCheckButton";
             this.kaCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -881,7 +888,7 @@
             // shiPictureBox
             // 
             this.shiPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("shiPictureBox.Image")));
-            this.shiPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.shiPictureBox.Location = new System.Drawing.Point(63, 6);
             this.shiPictureBox.Name = "shiPictureBox";
             this.shiPictureBox.Size = new System.Drawing.Size(145, 131);
             this.shiPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -891,7 +898,7 @@
             // 
             // shiHintButton
             // 
-            this.shiHintButton.Location = new System.Drawing.Point(74, 238);
+            this.shiHintButton.Location = new System.Drawing.Point(96, 148);
             this.shiHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.shiHintButton.Name = "shiHintButton";
             this.shiHintButton.Size = new System.Drawing.Size(82, 20);
@@ -904,7 +911,7 @@
             // 
             this.shiLabel.AutoSize = true;
             this.shiLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.shiLabel.Location = new System.Drawing.Point(191, 96);
+            this.shiLabel.Location = new System.Drawing.Point(213, 6);
             this.shiLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.shiLabel.Name = "shiLabel";
             this.shiLabel.Size = new System.Drawing.Size(114, 108);
@@ -913,7 +920,7 @@
             // 
             // shiTextBox
             // 
-            this.shiTextBox.Location = new System.Drawing.Point(209, 217);
+            this.shiTextBox.Location = new System.Drawing.Point(231, 117);
             this.shiTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.shiTextBox.Name = "shiTextBox";
             this.shiTextBox.Size = new System.Drawing.Size(82, 20);
@@ -921,7 +928,7 @@
             // 
             // shiCheckButton
             // 
-            this.shiCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.shiCheckButton.Location = new System.Drawing.Point(231, 148);
             this.shiCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.shiCheckButton.Name = "shiCheckButton";
             this.shiCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -948,7 +955,7 @@
             // tsuPictureBox
             // 
             this.tsuPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("tsuPictureBox.Image")));
-            this.tsuPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.tsuPictureBox.Location = new System.Drawing.Point(63, 6);
             this.tsuPictureBox.Name = "tsuPictureBox";
             this.tsuPictureBox.Size = new System.Drawing.Size(145, 131);
             this.tsuPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -958,7 +965,7 @@
             // 
             // tsuHintButton
             // 
-            this.tsuHintButton.Location = new System.Drawing.Point(74, 238);
+            this.tsuHintButton.Location = new System.Drawing.Point(96, 148);
             this.tsuHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.tsuHintButton.Name = "tsuHintButton";
             this.tsuHintButton.Size = new System.Drawing.Size(82, 20);
@@ -971,7 +978,7 @@
             // 
             this.tsuLabel.AutoSize = true;
             this.tsuLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tsuLabel.Location = new System.Drawing.Point(191, 96);
+            this.tsuLabel.Location = new System.Drawing.Point(213, 6);
             this.tsuLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.tsuLabel.Name = "tsuLabel";
             this.tsuLabel.Size = new System.Drawing.Size(120, 108);
@@ -980,7 +987,7 @@
             // 
             // tsuTextBox
             // 
-            this.tsuTextBox.Location = new System.Drawing.Point(209, 217);
+            this.tsuTextBox.Location = new System.Drawing.Point(231, 117);
             this.tsuTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.tsuTextBox.Name = "tsuTextBox";
             this.tsuTextBox.Size = new System.Drawing.Size(82, 20);
@@ -988,7 +995,7 @@
             // 
             // tsuCheckButton
             // 
-            this.tsuCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.tsuCheckButton.Location = new System.Drawing.Point(231, 148);
             this.tsuCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.tsuCheckButton.Name = "tsuCheckButton";
             this.tsuCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -1015,7 +1022,7 @@
             // nePictureBox
             // 
             this.nePictureBox.Image = ((System.Drawing.Image)(resources.GetObject("nePictureBox.Image")));
-            this.nePictureBox.Location = new System.Drawing.Point(41, 96);
+            this.nePictureBox.Location = new System.Drawing.Point(63, 6);
             this.nePictureBox.Name = "nePictureBox";
             this.nePictureBox.Size = new System.Drawing.Size(145, 131);
             this.nePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1025,7 +1032,7 @@
             // 
             // neHintButton
             // 
-            this.neHintButton.Location = new System.Drawing.Point(74, 238);
+            this.neHintButton.Location = new System.Drawing.Point(96, 148);
             this.neHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.neHintButton.Name = "neHintButton";
             this.neHintButton.Size = new System.Drawing.Size(82, 20);
@@ -1038,7 +1045,7 @@
             // 
             this.neLabel.AutoSize = true;
             this.neLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.neLabel.Location = new System.Drawing.Point(194, 96);
+            this.neLabel.Location = new System.Drawing.Point(216, 6);
             this.neLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.neLabel.Name = "neLabel";
             this.neLabel.Size = new System.Drawing.Size(130, 108);
@@ -1047,7 +1054,7 @@
             // 
             // neTextBox
             // 
-            this.neTextBox.Location = new System.Drawing.Point(209, 217);
+            this.neTextBox.Location = new System.Drawing.Point(231, 117);
             this.neTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.neTextBox.Name = "neTextBox";
             this.neTextBox.Size = new System.Drawing.Size(82, 20);
@@ -1055,7 +1062,7 @@
             // 
             // neCheckButton
             // 
-            this.neCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.neCheckButton.Location = new System.Drawing.Point(231, 148);
             this.neCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.neCheckButton.Name = "neCheckButton";
             this.neCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -1082,7 +1089,7 @@
             // hoPictureBox
             // 
             this.hoPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("hoPictureBox.Image")));
-            this.hoPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.hoPictureBox.Location = new System.Drawing.Point(63, 6);
             this.hoPictureBox.Name = "hoPictureBox";
             this.hoPictureBox.Size = new System.Drawing.Size(145, 131);
             this.hoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1092,7 +1099,7 @@
             // 
             // hoHintButton
             // 
-            this.hoHintButton.Location = new System.Drawing.Point(74, 238);
+            this.hoHintButton.Location = new System.Drawing.Point(96, 148);
             this.hoHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.hoHintButton.Name = "hoHintButton";
             this.hoHintButton.Size = new System.Drawing.Size(82, 20);
@@ -1105,7 +1112,7 @@
             // 
             this.hoLabel.AutoSize = true;
             this.hoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hoLabel.Location = new System.Drawing.Point(191, 96);
+            this.hoLabel.Location = new System.Drawing.Point(213, 6);
             this.hoLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.hoLabel.Name = "hoLabel";
             this.hoLabel.Size = new System.Drawing.Size(127, 108);
@@ -1114,7 +1121,7 @@
             // 
             // hoTextBox
             // 
-            this.hoTextBox.Location = new System.Drawing.Point(209, 217);
+            this.hoTextBox.Location = new System.Drawing.Point(231, 117);
             this.hoTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.hoTextBox.Name = "hoTextBox";
             this.hoTextBox.Size = new System.Drawing.Size(82, 20);
@@ -1122,7 +1129,7 @@
             // 
             // hoCheckButton
             // 
-            this.hoCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.hoCheckButton.Location = new System.Drawing.Point(231, 148);
             this.hoCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.hoCheckButton.Name = "hoCheckButton";
             this.hoCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -1149,7 +1156,7 @@
             // saPictureBox
             // 
             this.saPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("saPictureBox.Image")));
-            this.saPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.saPictureBox.Location = new System.Drawing.Point(63, 6);
             this.saPictureBox.Name = "saPictureBox";
             this.saPictureBox.Size = new System.Drawing.Size(145, 131);
             this.saPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1159,7 +1166,7 @@
             // 
             // saHintButton
             // 
-            this.saHintButton.Location = new System.Drawing.Point(74, 238);
+            this.saHintButton.Location = new System.Drawing.Point(96, 148);
             this.saHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.saHintButton.Name = "saHintButton";
             this.saHintButton.Size = new System.Drawing.Size(82, 20);
@@ -1172,7 +1179,7 @@
             // 
             this.saLabel.AutoSize = true;
             this.saLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.saLabel.Location = new System.Drawing.Point(191, 96);
+            this.saLabel.Location = new System.Drawing.Point(213, 6);
             this.saLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.saLabel.Name = "saLabel";
             this.saLabel.Size = new System.Drawing.Size(111, 108);
@@ -1181,7 +1188,7 @@
             // 
             // saTextBox
             // 
-            this.saTextBox.Location = new System.Drawing.Point(209, 217);
+            this.saTextBox.Location = new System.Drawing.Point(231, 117);
             this.saTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.saTextBox.Name = "saTextBox";
             this.saTextBox.Size = new System.Drawing.Size(82, 20);
@@ -1189,7 +1196,7 @@
             // 
             // saCheckButton
             // 
-            this.saCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.saCheckButton.Location = new System.Drawing.Point(231, 148);
             this.saCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.saCheckButton.Name = "saCheckButton";
             this.saCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -1216,7 +1223,7 @@
             // chiPictureBox
             // 
             this.chiPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("chiPictureBox.Image")));
-            this.chiPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.chiPictureBox.Location = new System.Drawing.Point(63, 6);
             this.chiPictureBox.Name = "chiPictureBox";
             this.chiPictureBox.Size = new System.Drawing.Size(145, 131);
             this.chiPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1226,7 +1233,7 @@
             // 
             // chiHintButton
             // 
-            this.chiHintButton.Location = new System.Drawing.Point(74, 238);
+            this.chiHintButton.Location = new System.Drawing.Point(96, 148);
             this.chiHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.chiHintButton.Name = "chiHintButton";
             this.chiHintButton.Size = new System.Drawing.Size(82, 20);
@@ -1239,7 +1246,7 @@
             // 
             this.chiLabel.AutoSize = true;
             this.chiLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chiLabel.Location = new System.Drawing.Point(191, 96);
+            this.chiLabel.Location = new System.Drawing.Point(213, 6);
             this.chiLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.chiLabel.Name = "chiLabel";
             this.chiLabel.Size = new System.Drawing.Size(118, 108);
@@ -1248,7 +1255,7 @@
             // 
             // chiTextBox
             // 
-            this.chiTextBox.Location = new System.Drawing.Point(209, 217);
+            this.chiTextBox.Location = new System.Drawing.Point(231, 117);
             this.chiTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.chiTextBox.Name = "chiTextBox";
             this.chiTextBox.Size = new System.Drawing.Size(82, 20);
@@ -1256,7 +1263,7 @@
             // 
             // chiCheckButton
             // 
-            this.chiCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.chiCheckButton.Location = new System.Drawing.Point(231, 148);
             this.chiCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.chiCheckButton.Name = "chiCheckButton";
             this.chiCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -1283,7 +1290,7 @@
             // nuPictureBox
             // 
             this.nuPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("nuPictureBox.Image")));
-            this.nuPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.nuPictureBox.Location = new System.Drawing.Point(63, 6);
             this.nuPictureBox.Name = "nuPictureBox";
             this.nuPictureBox.Size = new System.Drawing.Size(145, 131);
             this.nuPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1293,7 +1300,7 @@
             // 
             // nuHintButton
             // 
-            this.nuHintButton.Location = new System.Drawing.Point(74, 238);
+            this.nuHintButton.Location = new System.Drawing.Point(96, 148);
             this.nuHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.nuHintButton.Name = "nuHintButton";
             this.nuHintButton.Size = new System.Drawing.Size(82, 20);
@@ -1306,7 +1313,7 @@
             // 
             this.nuLabel.AutoSize = true;
             this.nuLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nuLabel.Location = new System.Drawing.Point(191, 96);
+            this.nuLabel.Location = new System.Drawing.Point(213, 6);
             this.nuLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.nuLabel.Name = "nuLabel";
             this.nuLabel.Size = new System.Drawing.Size(126, 108);
@@ -1315,7 +1322,7 @@
             // 
             // nuTextBox
             // 
-            this.nuTextBox.Location = new System.Drawing.Point(209, 217);
+            this.nuTextBox.Location = new System.Drawing.Point(231, 117);
             this.nuTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.nuTextBox.Name = "nuTextBox";
             this.nuTextBox.Size = new System.Drawing.Size(82, 20);
@@ -1323,7 +1330,7 @@
             // 
             // nuCheckButton
             // 
-            this.nuCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.nuCheckButton.Location = new System.Drawing.Point(231, 148);
             this.nuCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.nuCheckButton.Name = "nuCheckButton";
             this.nuCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -1350,7 +1357,7 @@
             // hePictureBox
             // 
             this.hePictureBox.Image = ((System.Drawing.Image)(resources.GetObject("hePictureBox.Image")));
-            this.hePictureBox.Location = new System.Drawing.Point(41, 96);
+            this.hePictureBox.Location = new System.Drawing.Point(63, 6);
             this.hePictureBox.Name = "hePictureBox";
             this.hePictureBox.Size = new System.Drawing.Size(145, 131);
             this.hePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1360,7 +1367,7 @@
             // 
             // heHintButton
             // 
-            this.heHintButton.Location = new System.Drawing.Point(74, 238);
+            this.heHintButton.Location = new System.Drawing.Point(96, 148);
             this.heHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.heHintButton.Name = "heHintButton";
             this.heHintButton.Size = new System.Drawing.Size(82, 20);
@@ -1373,7 +1380,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(191, 96);
+            this.label12.Location = new System.Drawing.Point(213, 6);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(123, 108);
@@ -1382,7 +1389,7 @@
             // 
             // heTextBox
             // 
-            this.heTextBox.Location = new System.Drawing.Point(209, 217);
+            this.heTextBox.Location = new System.Drawing.Point(231, 117);
             this.heTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.heTextBox.Name = "heTextBox";
             this.heTextBox.Size = new System.Drawing.Size(82, 20);
@@ -1390,7 +1397,7 @@
             // 
             // heCheckButton
             // 
-            this.heCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.heCheckButton.Location = new System.Drawing.Point(231, 148);
             this.heCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.heCheckButton.Name = "heCheckButton";
             this.heCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -1417,7 +1424,7 @@
             // moPictureBox
             // 
             this.moPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("moPictureBox.Image")));
-            this.moPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.moPictureBox.Location = new System.Drawing.Point(63, 6);
             this.moPictureBox.Name = "moPictureBox";
             this.moPictureBox.Size = new System.Drawing.Size(145, 131);
             this.moPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1427,7 +1434,7 @@
             // 
             // moHintButton
             // 
-            this.moHintButton.Location = new System.Drawing.Point(74, 238);
+            this.moHintButton.Location = new System.Drawing.Point(96, 148);
             this.moHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.moHintButton.Name = "moHintButton";
             this.moHintButton.Size = new System.Drawing.Size(82, 20);
@@ -1440,7 +1447,7 @@
             // 
             this.moLabel.AutoSize = true;
             this.moLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.moLabel.Location = new System.Drawing.Point(191, 96);
+            this.moLabel.Location = new System.Drawing.Point(213, 6);
             this.moLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.moLabel.Name = "moLabel";
             this.moLabel.Size = new System.Drawing.Size(118, 108);
@@ -1449,7 +1456,7 @@
             // 
             // moTextBox
             // 
-            this.moTextBox.Location = new System.Drawing.Point(209, 217);
+            this.moTextBox.Location = new System.Drawing.Point(231, 117);
             this.moTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.moTextBox.Name = "moTextBox";
             this.moTextBox.Size = new System.Drawing.Size(82, 20);
@@ -1457,7 +1464,7 @@
             // 
             // moCheckButton
             // 
-            this.moCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.moCheckButton.Location = new System.Drawing.Point(231, 148);
             this.moCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.moCheckButton.Name = "moCheckButton";
             this.moCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -1484,7 +1491,7 @@
             // taPictureBox
             // 
             this.taPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("taPictureBox.Image")));
-            this.taPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.taPictureBox.Location = new System.Drawing.Point(63, 6);
             this.taPictureBox.Name = "taPictureBox";
             this.taPictureBox.Size = new System.Drawing.Size(145, 131);
             this.taPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1494,7 +1501,7 @@
             // 
             // taHintButton
             // 
-            this.taHintButton.Location = new System.Drawing.Point(74, 238);
+            this.taHintButton.Location = new System.Drawing.Point(96, 148);
             this.taHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.taHintButton.Name = "taHintButton";
             this.taHintButton.Size = new System.Drawing.Size(82, 20);
@@ -1507,7 +1514,7 @@
             // 
             this.taLabel.AutoSize = true;
             this.taLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.taLabel.Location = new System.Drawing.Point(191, 96);
+            this.taLabel.Location = new System.Drawing.Point(213, 6);
             this.taLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.taLabel.Name = "taLabel";
             this.taLabel.Size = new System.Drawing.Size(120, 108);
@@ -1516,7 +1523,7 @@
             // 
             // taTextBox
             // 
-            this.taTextBox.Location = new System.Drawing.Point(209, 217);
+            this.taTextBox.Location = new System.Drawing.Point(231, 117);
             this.taTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.taTextBox.Name = "taTextBox";
             this.taTextBox.Size = new System.Drawing.Size(82, 20);
@@ -1524,7 +1531,7 @@
             // 
             // taCheckButton
             // 
-            this.taCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.taCheckButton.Location = new System.Drawing.Point(231, 148);
             this.taCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.taCheckButton.Name = "taCheckButton";
             this.taCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -1551,7 +1558,7 @@
             // niPictureBox
             // 
             this.niPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("niPictureBox.Image")));
-            this.niPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.niPictureBox.Location = new System.Drawing.Point(63, 6);
             this.niPictureBox.Name = "niPictureBox";
             this.niPictureBox.Size = new System.Drawing.Size(145, 131);
             this.niPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1561,7 +1568,7 @@
             // 
             // niHintButton
             // 
-            this.niHintButton.Location = new System.Drawing.Point(74, 238);
+            this.niHintButton.Location = new System.Drawing.Point(96, 148);
             this.niHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.niHintButton.Name = "niHintButton";
             this.niHintButton.Size = new System.Drawing.Size(82, 20);
@@ -1574,7 +1581,7 @@
             // 
             this.niLabel.AutoSize = true;
             this.niLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.niLabel.Location = new System.Drawing.Point(191, 96);
+            this.niLabel.Location = new System.Drawing.Point(213, 6);
             this.niLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.niLabel.Name = "niLabel";
             this.niLabel.Size = new System.Drawing.Size(120, 108);
@@ -1583,7 +1590,7 @@
             // 
             // niTextBox
             // 
-            this.niTextBox.Location = new System.Drawing.Point(209, 217);
+            this.niTextBox.Location = new System.Drawing.Point(231, 117);
             this.niTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.niTextBox.Name = "niTextBox";
             this.niTextBox.Size = new System.Drawing.Size(82, 20);
@@ -1591,7 +1598,7 @@
             // 
             // niCheckButton
             // 
-            this.niCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.niCheckButton.Location = new System.Drawing.Point(231, 148);
             this.niCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.niCheckButton.Name = "niCheckButton";
             this.niCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -1618,7 +1625,7 @@
             // huPictureBox
             // 
             this.huPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("huPictureBox.Image")));
-            this.huPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.huPictureBox.Location = new System.Drawing.Point(63, 6);
             this.huPictureBox.Name = "huPictureBox";
             this.huPictureBox.Size = new System.Drawing.Size(145, 131);
             this.huPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1628,7 +1635,7 @@
             // 
             // huHintButton
             // 
-            this.huHintButton.Location = new System.Drawing.Point(74, 238);
+            this.huHintButton.Location = new System.Drawing.Point(96, 148);
             this.huHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.huHintButton.Name = "huHintButton";
             this.huHintButton.Size = new System.Drawing.Size(82, 20);
@@ -1641,7 +1648,7 @@
             // 
             this.huLabel.AutoSize = true;
             this.huLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.huLabel.Location = new System.Drawing.Point(191, 96);
+            this.huLabel.Location = new System.Drawing.Point(213, 6);
             this.huLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.huLabel.Name = "huLabel";
             this.huLabel.Size = new System.Drawing.Size(123, 108);
@@ -1650,7 +1657,7 @@
             // 
             // huTextBox
             // 
-            this.huTextBox.Location = new System.Drawing.Point(209, 217);
+            this.huTextBox.Location = new System.Drawing.Point(231, 117);
             this.huTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.huTextBox.Name = "huTextBox";
             this.huTextBox.Size = new System.Drawing.Size(82, 20);
@@ -1658,7 +1665,7 @@
             // 
             // huCheckButton
             // 
-            this.huCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.huCheckButton.Location = new System.Drawing.Point(231, 148);
             this.huCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.huCheckButton.Name = "huCheckButton";
             this.huCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -1685,7 +1692,7 @@
             // mePictureBox
             // 
             this.mePictureBox.Image = ((System.Drawing.Image)(resources.GetObject("mePictureBox.Image")));
-            this.mePictureBox.Location = new System.Drawing.Point(41, 96);
+            this.mePictureBox.Location = new System.Drawing.Point(63, 6);
             this.mePictureBox.Name = "mePictureBox";
             this.mePictureBox.Size = new System.Drawing.Size(145, 131);
             this.mePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1695,7 +1702,7 @@
             // 
             // meHintButton
             // 
-            this.meHintButton.Location = new System.Drawing.Point(74, 238);
+            this.meHintButton.Location = new System.Drawing.Point(96, 148);
             this.meHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.meHintButton.Name = "meHintButton";
             this.meHintButton.Size = new System.Drawing.Size(82, 20);
@@ -1708,7 +1715,7 @@
             // 
             this.meLabel.AutoSize = true;
             this.meLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.meLabel.Location = new System.Drawing.Point(191, 96);
+            this.meLabel.Location = new System.Drawing.Point(213, 6);
             this.meLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.meLabel.Name = "meLabel";
             this.meLabel.Size = new System.Drawing.Size(123, 108);
@@ -1717,7 +1724,7 @@
             // 
             // meTextBox
             // 
-            this.meTextBox.Location = new System.Drawing.Point(209, 217);
+            this.meTextBox.Location = new System.Drawing.Point(231, 117);
             this.meTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.meTextBox.Name = "meTextBox";
             this.meTextBox.Size = new System.Drawing.Size(82, 20);
@@ -1725,7 +1732,7 @@
             // 
             // meCheckButton
             // 
-            this.meCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.meCheckButton.Location = new System.Drawing.Point(231, 148);
             this.meCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.meCheckButton.Name = "meCheckButton";
             this.meCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -1752,7 +1759,7 @@
             // yoPictureBox
             // 
             this.yoPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("yoPictureBox.Image")));
-            this.yoPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.yoPictureBox.Location = new System.Drawing.Point(63, 6);
             this.yoPictureBox.Name = "yoPictureBox";
             this.yoPictureBox.Size = new System.Drawing.Size(145, 131);
             this.yoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1762,7 +1769,7 @@
             // 
             // yoHintButton
             // 
-            this.yoHintButton.Location = new System.Drawing.Point(74, 238);
+            this.yoHintButton.Location = new System.Drawing.Point(96, 148);
             this.yoHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.yoHintButton.Name = "yoHintButton";
             this.yoHintButton.Size = new System.Drawing.Size(82, 20);
@@ -1775,7 +1782,7 @@
             // 
             this.yoLabel.AutoSize = true;
             this.yoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yoLabel.Location = new System.Drawing.Point(191, 96);
+            this.yoLabel.Location = new System.Drawing.Point(213, 6);
             this.yoLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.yoLabel.Name = "yoLabel";
             this.yoLabel.Size = new System.Drawing.Size(117, 108);
@@ -1784,7 +1791,7 @@
             // 
             // yoTextBox
             // 
-            this.yoTextBox.Location = new System.Drawing.Point(209, 217);
+            this.yoTextBox.Location = new System.Drawing.Point(231, 117);
             this.yoTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.yoTextBox.Name = "yoTextBox";
             this.yoTextBox.Size = new System.Drawing.Size(82, 20);
@@ -1792,7 +1799,7 @@
             // 
             // yoCheckButton
             // 
-            this.yoCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.yoCheckButton.Location = new System.Drawing.Point(231, 148);
             this.yoCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.yoCheckButton.Name = "yoCheckButton";
             this.yoCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -1819,7 +1826,7 @@
             // kePictureBox
             // 
             this.kePictureBox.Image = ((System.Drawing.Image)(resources.GetObject("kePictureBox.Image")));
-            this.kePictureBox.Location = new System.Drawing.Point(41, 96);
+            this.kePictureBox.Location = new System.Drawing.Point(63, 6);
             this.kePictureBox.Name = "kePictureBox";
             this.kePictureBox.Size = new System.Drawing.Size(145, 131);
             this.kePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1829,7 +1836,7 @@
             // 
             // keHintButton
             // 
-            this.keHintButton.Location = new System.Drawing.Point(74, 238);
+            this.keHintButton.Location = new System.Drawing.Point(96, 148);
             this.keHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.keHintButton.Name = "keHintButton";
             this.keHintButton.Size = new System.Drawing.Size(82, 20);
@@ -1842,7 +1849,7 @@
             // 
             this.keLabel.AutoSize = true;
             this.keLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.keLabel.Location = new System.Drawing.Point(191, 96);
+            this.keLabel.Location = new System.Drawing.Point(213, 6);
             this.keLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.keLabel.Name = "keLabel";
             this.keLabel.Size = new System.Drawing.Size(123, 108);
@@ -1851,7 +1858,7 @@
             // 
             // keTextBox
             // 
-            this.keTextBox.Location = new System.Drawing.Point(209, 217);
+            this.keTextBox.Location = new System.Drawing.Point(231, 117);
             this.keTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.keTextBox.Name = "keTextBox";
             this.keTextBox.Size = new System.Drawing.Size(82, 20);
@@ -1859,7 +1866,7 @@
             // 
             // keCheckButton
             // 
-            this.keCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.keCheckButton.Location = new System.Drawing.Point(231, 148);
             this.keCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.keCheckButton.Name = "keCheckButton";
             this.keCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -1886,7 +1893,7 @@
             // soPictureBox
             // 
             this.soPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("soPictureBox.Image")));
-            this.soPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.soPictureBox.Location = new System.Drawing.Point(63, 6);
             this.soPictureBox.Name = "soPictureBox";
             this.soPictureBox.Size = new System.Drawing.Size(145, 131);
             this.soPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1896,7 +1903,7 @@
             // 
             // soHintButton
             // 
-            this.soHintButton.Location = new System.Drawing.Point(74, 238);
+            this.soHintButton.Location = new System.Drawing.Point(96, 148);
             this.soHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.soHintButton.Name = "soHintButton";
             this.soHintButton.Size = new System.Drawing.Size(82, 20);
@@ -1909,7 +1916,7 @@
             // 
             this.soLabel.AutoSize = true;
             this.soLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.soLabel.Location = new System.Drawing.Point(191, 96);
+            this.soLabel.Location = new System.Drawing.Point(213, 6);
             this.soLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.soLabel.Name = "soLabel";
             this.soLabel.Size = new System.Drawing.Size(117, 108);
@@ -1918,7 +1925,7 @@
             // 
             // soTextBox
             // 
-            this.soTextBox.Location = new System.Drawing.Point(209, 217);
+            this.soTextBox.Location = new System.Drawing.Point(231, 117);
             this.soTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.soTextBox.Name = "soTextBox";
             this.soTextBox.Size = new System.Drawing.Size(82, 20);
@@ -1926,7 +1933,7 @@
             // 
             // soCheckButton
             // 
-            this.soCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.soCheckButton.Location = new System.Drawing.Point(231, 148);
             this.soCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.soCheckButton.Name = "soCheckButton";
             this.soCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -1953,7 +1960,7 @@
             // uPictureBox
             // 
             this.uPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("uPictureBox.Image")));
-            this.uPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.uPictureBox.Location = new System.Drawing.Point(63, 6);
             this.uPictureBox.Name = "uPictureBox";
             this.uPictureBox.Size = new System.Drawing.Size(145, 131);
             this.uPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1963,7 +1970,7 @@
             // 
             // uHintButton
             // 
-            this.uHintButton.Location = new System.Drawing.Point(74, 238);
+            this.uHintButton.Location = new System.Drawing.Point(96, 148);
             this.uHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.uHintButton.Name = "uHintButton";
             this.uHintButton.Size = new System.Drawing.Size(82, 20);
@@ -1976,7 +1983,7 @@
             // 
             this.uLabel.AutoSize = true;
             this.uLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uLabel.Location = new System.Drawing.Point(191, 96);
+            this.uLabel.Location = new System.Drawing.Point(213, 6);
             this.uLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.uLabel.Name = "uLabel";
             this.uLabel.Size = new System.Drawing.Size(102, 108);
@@ -1985,7 +1992,7 @@
             // 
             // uTextBox
             // 
-            this.uTextBox.Location = new System.Drawing.Point(209, 217);
+            this.uTextBox.Location = new System.Drawing.Point(231, 117);
             this.uTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.uTextBox.Name = "uTextBox";
             this.uTextBox.Size = new System.Drawing.Size(82, 20);
@@ -1993,7 +2000,7 @@
             // 
             // uCheckButton
             // 
-            this.uCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.uCheckButton.Location = new System.Drawing.Point(231, 148);
             this.uCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.uCheckButton.Name = "uCheckButton";
             this.uCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -2020,7 +2027,7 @@
             // yuPictureBox
             // 
             this.yuPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("yuPictureBox.Image")));
-            this.yuPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.yuPictureBox.Location = new System.Drawing.Point(63, 6);
             this.yuPictureBox.Name = "yuPictureBox";
             this.yuPictureBox.Size = new System.Drawing.Size(145, 131);
             this.yuPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -2030,7 +2037,7 @@
             // 
             // yuHintButton
             // 
-            this.yuHintButton.Location = new System.Drawing.Point(74, 238);
+            this.yuHintButton.Location = new System.Drawing.Point(96, 148);
             this.yuHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.yuHintButton.Name = "yuHintButton";
             this.yuHintButton.Size = new System.Drawing.Size(82, 20);
@@ -2043,7 +2050,7 @@
             // 
             this.yuLabel.AutoSize = true;
             this.yuLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yuLabel.Location = new System.Drawing.Point(191, 96);
+            this.yuLabel.Location = new System.Drawing.Point(213, 6);
             this.yuLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.yuLabel.Name = "yuLabel";
             this.yuLabel.Size = new System.Drawing.Size(127, 108);
@@ -2052,7 +2059,7 @@
             // 
             // yuTextBox
             // 
-            this.yuTextBox.Location = new System.Drawing.Point(209, 217);
+            this.yuTextBox.Location = new System.Drawing.Point(231, 117);
             this.yuTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.yuTextBox.Name = "yuTextBox";
             this.yuTextBox.Size = new System.Drawing.Size(82, 20);
@@ -2060,7 +2067,7 @@
             // 
             // yuCheckButton
             // 
-            this.yuCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.yuCheckButton.Location = new System.Drawing.Point(231, 148);
             this.yuCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.yuCheckButton.Name = "yuCheckButton";
             this.yuCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -2087,7 +2094,7 @@
             // waPictureBox
             // 
             this.waPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("waPictureBox.Image")));
-            this.waPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.waPictureBox.Location = new System.Drawing.Point(63, 6);
             this.waPictureBox.Name = "waPictureBox";
             this.waPictureBox.Size = new System.Drawing.Size(145, 131);
             this.waPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -2097,7 +2104,7 @@
             // 
             // waHintButton
             // 
-            this.waHintButton.Location = new System.Drawing.Point(74, 238);
+            this.waHintButton.Location = new System.Drawing.Point(96, 148);
             this.waHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.waHintButton.Name = "waHintButton";
             this.waHintButton.Size = new System.Drawing.Size(82, 20);
@@ -2110,7 +2117,7 @@
             // 
             this.waLabel.AutoSize = true;
             this.waLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.waLabel.Location = new System.Drawing.Point(191, 96);
+            this.waLabel.Location = new System.Drawing.Point(213, 6);
             this.waLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.waLabel.Name = "waLabel";
             this.waLabel.Size = new System.Drawing.Size(126, 108);
@@ -2119,7 +2126,7 @@
             // 
             // waTextBox
             // 
-            this.waTextBox.Location = new System.Drawing.Point(209, 217);
+            this.waTextBox.Location = new System.Drawing.Point(231, 117);
             this.waTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.waTextBox.Name = "waTextBox";
             this.waTextBox.Size = new System.Drawing.Size(82, 20);
@@ -2127,7 +2134,7 @@
             // 
             // waCheckButton
             // 
-            this.waCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.waCheckButton.Location = new System.Drawing.Point(231, 148);
             this.waCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.waCheckButton.Name = "waCheckButton";
             this.waCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -2154,7 +2161,7 @@
             // muPictureBox
             // 
             this.muPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("muPictureBox.Image")));
-            this.muPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.muPictureBox.Location = new System.Drawing.Point(63, 6);
             this.muPictureBox.Name = "muPictureBox";
             this.muPictureBox.Size = new System.Drawing.Size(145, 131);
             this.muPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -2164,7 +2171,7 @@
             // 
             // muHintButton
             // 
-            this.muHintButton.Location = new System.Drawing.Point(74, 238);
+            this.muHintButton.Location = new System.Drawing.Point(96, 148);
             this.muHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.muHintButton.Name = "muHintButton";
             this.muHintButton.Size = new System.Drawing.Size(82, 20);
@@ -2177,7 +2184,7 @@
             // 
             this.muLabel.AutoSize = true;
             this.muLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.muLabel.Location = new System.Drawing.Point(191, 96);
+            this.muLabel.Location = new System.Drawing.Point(213, 6);
             this.muLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.muLabel.Name = "muLabel";
             this.muLabel.Size = new System.Drawing.Size(123, 108);
@@ -2186,7 +2193,7 @@
             // 
             // muTextBox
             // 
-            this.muTextBox.Location = new System.Drawing.Point(209, 217);
+            this.muTextBox.Location = new System.Drawing.Point(231, 117);
             this.muTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.muTextBox.Name = "muTextBox";
             this.muTextBox.Size = new System.Drawing.Size(82, 20);
@@ -2194,7 +2201,7 @@
             // 
             // muCheckButton
             // 
-            this.muCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.muCheckButton.Location = new System.Drawing.Point(231, 148);
             this.muCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.muCheckButton.Name = "muCheckButton";
             this.muCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -2221,7 +2228,7 @@
             // haPictureBox
             // 
             this.haPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("haPictureBox.Image")));
-            this.haPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.haPictureBox.Location = new System.Drawing.Point(63, 6);
             this.haPictureBox.Name = "haPictureBox";
             this.haPictureBox.Size = new System.Drawing.Size(145, 131);
             this.haPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -2231,7 +2238,7 @@
             // 
             // haHintButton
             // 
-            this.haHintButton.Location = new System.Drawing.Point(74, 238);
+            this.haHintButton.Location = new System.Drawing.Point(96, 148);
             this.haHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.haHintButton.Name = "haHintButton";
             this.haHintButton.Size = new System.Drawing.Size(82, 20);
@@ -2244,7 +2251,7 @@
             // 
             this.haLabel.AutoSize = true;
             this.haLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.haLabel.Location = new System.Drawing.Point(191, 96);
+            this.haLabel.Location = new System.Drawing.Point(213, 6);
             this.haLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.haLabel.Name = "haLabel";
             this.haLabel.Size = new System.Drawing.Size(127, 108);
@@ -2253,7 +2260,7 @@
             // 
             // haTextBox
             // 
-            this.haTextBox.Location = new System.Drawing.Point(209, 217);
+            this.haTextBox.Location = new System.Drawing.Point(231, 117);
             this.haTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.haTextBox.Name = "haTextBox";
             this.haTextBox.Size = new System.Drawing.Size(82, 20);
@@ -2261,7 +2268,7 @@
             // 
             // haCheckButton
             // 
-            this.haCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.haCheckButton.Location = new System.Drawing.Point(231, 148);
             this.haCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.haCheckButton.Name = "haCheckButton";
             this.haCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -2288,7 +2295,7 @@
             // yaPictureBox
             // 
             this.yaPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("yaPictureBox.Image")));
-            this.yaPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.yaPictureBox.Location = new System.Drawing.Point(63, 6);
             this.yaPictureBox.Name = "yaPictureBox";
             this.yaPictureBox.Size = new System.Drawing.Size(145, 131);
             this.yaPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -2298,7 +2305,7 @@
             // 
             // yaHintButton
             // 
-            this.yaHintButton.Location = new System.Drawing.Point(74, 238);
+            this.yaHintButton.Location = new System.Drawing.Point(96, 148);
             this.yaHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.yaHintButton.Name = "yaHintButton";
             this.yaHintButton.Size = new System.Drawing.Size(82, 20);
@@ -2311,7 +2318,7 @@
             // 
             this.yaLabel.AutoSize = true;
             this.yaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yaLabel.Location = new System.Drawing.Point(191, 96);
+            this.yaLabel.Location = new System.Drawing.Point(213, 6);
             this.yaLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.yaLabel.Name = "yaLabel";
             this.yaLabel.Size = new System.Drawing.Size(126, 108);
@@ -2320,7 +2327,7 @@
             // 
             // yaTextBox
             // 
-            this.yaTextBox.Location = new System.Drawing.Point(209, 217);
+            this.yaTextBox.Location = new System.Drawing.Point(231, 117);
             this.yaTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.yaTextBox.Name = "yaTextBox";
             this.yaTextBox.Size = new System.Drawing.Size(82, 20);
@@ -2328,7 +2335,7 @@
             // 
             // yaCheckButton
             // 
-            this.yaCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.yaCheckButton.Location = new System.Drawing.Point(231, 148);
             this.yaCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.yaCheckButton.Name = "yaCheckButton";
             this.yaCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -2355,7 +2362,7 @@
             // riPictureBox
             // 
             this.riPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("riPictureBox.Image")));
-            this.riPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.riPictureBox.Location = new System.Drawing.Point(63, 6);
             this.riPictureBox.Name = "riPictureBox";
             this.riPictureBox.Size = new System.Drawing.Size(145, 131);
             this.riPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -2365,7 +2372,7 @@
             // 
             // riHintButton
             // 
-            this.riHintButton.Location = new System.Drawing.Point(74, 238);
+            this.riHintButton.Location = new System.Drawing.Point(96, 148);
             this.riHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.riHintButton.Name = "riHintButton";
             this.riHintButton.Size = new System.Drawing.Size(82, 20);
@@ -2378,7 +2385,7 @@
             // 
             this.riLabel.AutoSize = true;
             this.riLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.riLabel.Location = new System.Drawing.Point(191, 96);
+            this.riLabel.Location = new System.Drawing.Point(213, 6);
             this.riLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.riLabel.Name = "riLabel";
             this.riLabel.Size = new System.Drawing.Size(105, 108);
@@ -2387,7 +2394,7 @@
             // 
             // riTextBox
             // 
-            this.riTextBox.Location = new System.Drawing.Point(209, 217);
+            this.riTextBox.Location = new System.Drawing.Point(231, 117);
             this.riTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.riTextBox.Name = "riTextBox";
             this.riTextBox.Size = new System.Drawing.Size(82, 20);
@@ -2395,7 +2402,7 @@
             // 
             // riCheckButton
             // 
-            this.riCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.riCheckButton.Location = new System.Drawing.Point(231, 148);
             this.riCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.riCheckButton.Name = "riCheckButton";
             this.riCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -2422,7 +2429,7 @@
             // woPictureBox
             // 
             this.woPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("woPictureBox.Image")));
-            this.woPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.woPictureBox.Location = new System.Drawing.Point(63, 6);
             this.woPictureBox.Name = "woPictureBox";
             this.woPictureBox.Size = new System.Drawing.Size(145, 131);
             this.woPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -2432,7 +2439,7 @@
             // 
             // woHintButton
             // 
-            this.woHintButton.Location = new System.Drawing.Point(74, 238);
+            this.woHintButton.Location = new System.Drawing.Point(96, 148);
             this.woHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.woHintButton.Name = "woHintButton";
             this.woHintButton.Size = new System.Drawing.Size(82, 20);
@@ -2445,7 +2452,7 @@
             // 
             this.woLabel.AutoSize = true;
             this.woLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.woLabel.Location = new System.Drawing.Point(191, 96);
+            this.woLabel.Location = new System.Drawing.Point(213, 6);
             this.woLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.woLabel.Name = "woLabel";
             this.woLabel.Size = new System.Drawing.Size(117, 108);
@@ -2454,7 +2461,7 @@
             // 
             // woTextBox
             // 
-            this.woTextBox.Location = new System.Drawing.Point(209, 217);
+            this.woTextBox.Location = new System.Drawing.Point(231, 117);
             this.woTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.woTextBox.Name = "woTextBox";
             this.woTextBox.Size = new System.Drawing.Size(82, 20);
@@ -2462,7 +2469,7 @@
             // 
             // woCheckButton
             // 
-            this.woCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.woCheckButton.Location = new System.Drawing.Point(231, 148);
             this.woCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.woCheckButton.Name = "woCheckButton";
             this.woCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -2489,7 +2496,7 @@
             // maPictureBox
             // 
             this.maPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("maPictureBox.Image")));
-            this.maPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.maPictureBox.Location = new System.Drawing.Point(63, 6);
             this.maPictureBox.Name = "maPictureBox";
             this.maPictureBox.Size = new System.Drawing.Size(145, 131);
             this.maPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -2499,7 +2506,7 @@
             // 
             // maHintButton
             // 
-            this.maHintButton.Location = new System.Drawing.Point(74, 238);
+            this.maHintButton.Location = new System.Drawing.Point(96, 148);
             this.maHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.maHintButton.Name = "maHintButton";
             this.maHintButton.Size = new System.Drawing.Size(82, 20);
@@ -2512,7 +2519,7 @@
             // 
             this.maLabel.AutoSize = true;
             this.maLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maLabel.Location = new System.Drawing.Point(191, 96);
+            this.maLabel.Location = new System.Drawing.Point(213, 6);
             this.maLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.maLabel.Name = "maLabel";
             this.maLabel.Size = new System.Drawing.Size(117, 108);
@@ -2521,7 +2528,7 @@
             // 
             // maTextBox
             // 
-            this.maTextBox.Location = new System.Drawing.Point(209, 217);
+            this.maTextBox.Location = new System.Drawing.Point(231, 117);
             this.maTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.maTextBox.Name = "maTextBox";
             this.maTextBox.Size = new System.Drawing.Size(82, 20);
@@ -2529,7 +2536,7 @@
             // 
             // maCheckButton
             // 
-            this.maCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.maCheckButton.Location = new System.Drawing.Point(231, 148);
             this.maCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.maCheckButton.Name = "maCheckButton";
             this.maCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -2556,7 +2563,7 @@
             // raPictureBox
             // 
             this.raPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("raPictureBox.Image")));
-            this.raPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.raPictureBox.Location = new System.Drawing.Point(63, 6);
             this.raPictureBox.Name = "raPictureBox";
             this.raPictureBox.Size = new System.Drawing.Size(145, 131);
             this.raPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -2566,7 +2573,7 @@
             // 
             // raHintButton
             // 
-            this.raHintButton.Location = new System.Drawing.Point(74, 238);
+            this.raHintButton.Location = new System.Drawing.Point(96, 148);
             this.raHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.raHintButton.Name = "raHintButton";
             this.raHintButton.Size = new System.Drawing.Size(82, 20);
@@ -2579,7 +2586,7 @@
             // 
             this.raLabel.AutoSize = true;
             this.raLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.raLabel.Location = new System.Drawing.Point(191, 96);
+            this.raLabel.Location = new System.Drawing.Point(213, 6);
             this.raLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.raLabel.Name = "raLabel";
             this.raLabel.Size = new System.Drawing.Size(111, 108);
@@ -2588,7 +2595,7 @@
             // 
             // raTextBox
             // 
-            this.raTextBox.Location = new System.Drawing.Point(209, 217);
+            this.raTextBox.Location = new System.Drawing.Point(231, 117);
             this.raTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.raTextBox.Name = "raTextBox";
             this.raTextBox.Size = new System.Drawing.Size(82, 20);
@@ -2596,7 +2603,7 @@
             // 
             // raCheckButton
             // 
-            this.raCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.raCheckButton.Location = new System.Drawing.Point(231, 148);
             this.raCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.raCheckButton.Name = "raCheckButton";
             this.raCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -2623,7 +2630,7 @@
             // ruPictureBox
             // 
             this.ruPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("ruPictureBox.Image")));
-            this.ruPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.ruPictureBox.Location = new System.Drawing.Point(63, 6);
             this.ruPictureBox.Name = "ruPictureBox";
             this.ruPictureBox.Size = new System.Drawing.Size(145, 131);
             this.ruPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -2633,7 +2640,7 @@
             // 
             // ruHintButton
             // 
-            this.ruHintButton.Location = new System.Drawing.Point(74, 238);
+            this.ruHintButton.Location = new System.Drawing.Point(96, 148);
             this.ruHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.ruHintButton.Name = "ruHintButton";
             this.ruHintButton.Size = new System.Drawing.Size(82, 20);
@@ -2646,7 +2653,7 @@
             // 
             this.ruLabel.AutoSize = true;
             this.ruLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ruLabel.Location = new System.Drawing.Point(191, 96);
+            this.ruLabel.Location = new System.Drawing.Point(213, 6);
             this.ruLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.ruLabel.Name = "ruLabel";
             this.ruLabel.Size = new System.Drawing.Size(118, 108);
@@ -2655,7 +2662,7 @@
             // 
             // ruTextBox
             // 
-            this.ruTextBox.Location = new System.Drawing.Point(209, 217);
+            this.ruTextBox.Location = new System.Drawing.Point(231, 117);
             this.ruTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.ruTextBox.Name = "ruTextBox";
             this.ruTextBox.Size = new System.Drawing.Size(82, 20);
@@ -2663,7 +2670,7 @@
             // 
             // ruCheckButton
             // 
-            this.ruCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.ruCheckButton.Location = new System.Drawing.Point(231, 148);
             this.ruCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.ruCheckButton.Name = "ruCheckButton";
             this.ruCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -2690,7 +2697,7 @@
             // sePictureBox
             // 
             this.sePictureBox.Image = ((System.Drawing.Image)(resources.GetObject("sePictureBox.Image")));
-            this.sePictureBox.Location = new System.Drawing.Point(41, 96);
+            this.sePictureBox.Location = new System.Drawing.Point(63, 6);
             this.sePictureBox.Name = "sePictureBox";
             this.sePictureBox.Size = new System.Drawing.Size(145, 131);
             this.sePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -2700,7 +2707,7 @@
             // 
             // seHintButton
             // 
-            this.seHintButton.Location = new System.Drawing.Point(74, 238);
+            this.seHintButton.Location = new System.Drawing.Point(96, 148);
             this.seHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.seHintButton.Name = "seHintButton";
             this.seHintButton.Size = new System.Drawing.Size(82, 20);
@@ -2713,7 +2720,7 @@
             // 
             this.seLabel.AutoSize = true;
             this.seLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.seLabel.Location = new System.Drawing.Point(191, 96);
+            this.seLabel.Location = new System.Drawing.Point(213, 6);
             this.seLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.seLabel.Name = "seLabel";
             this.seLabel.Size = new System.Drawing.Size(126, 108);
@@ -2722,7 +2729,7 @@
             // 
             // seTextBox
             // 
-            this.seTextBox.Location = new System.Drawing.Point(209, 217);
+            this.seTextBox.Location = new System.Drawing.Point(231, 117);
             this.seTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.seTextBox.Name = "seTextBox";
             this.seTextBox.Size = new System.Drawing.Size(82, 20);
@@ -2730,7 +2737,7 @@
             // 
             // seCheckButton
             // 
-            this.seCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.seCheckButton.Location = new System.Drawing.Point(231, 148);
             this.seCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.seCheckButton.Name = "seCheckButton";
             this.seCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -2757,7 +2764,7 @@
             // oPictureBox
             // 
             this.oPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("oPictureBox.Image")));
-            this.oPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.oPictureBox.Location = new System.Drawing.Point(63, 6);
             this.oPictureBox.Name = "oPictureBox";
             this.oPictureBox.Size = new System.Drawing.Size(145, 131);
             this.oPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -2767,7 +2774,7 @@
             // 
             // oHintButton
             // 
-            this.oHintButton.Location = new System.Drawing.Point(74, 238);
+            this.oHintButton.Location = new System.Drawing.Point(96, 148);
             this.oHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.oHintButton.Name = "oHintButton";
             this.oHintButton.Size = new System.Drawing.Size(82, 20);
@@ -2780,7 +2787,7 @@
             // 
             this.oLabel.AutoSize = true;
             this.oLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.oLabel.Location = new System.Drawing.Point(191, 96);
+            this.oLabel.Location = new System.Drawing.Point(213, 6);
             this.oLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.oLabel.Name = "oLabel";
             this.oLabel.Size = new System.Drawing.Size(123, 108);
@@ -2789,7 +2796,7 @@
             // 
             // oTextBox
             // 
-            this.oTextBox.Location = new System.Drawing.Point(209, 217);
+            this.oTextBox.Location = new System.Drawing.Point(231, 117);
             this.oTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.oTextBox.Name = "oTextBox";
             this.oTextBox.Size = new System.Drawing.Size(82, 20);
@@ -2797,7 +2804,7 @@
             // 
             // oCheckButton
             // 
-            this.oCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.oCheckButton.Location = new System.Drawing.Point(231, 148);
             this.oCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.oCheckButton.Name = "oCheckButton";
             this.oCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -2824,7 +2831,7 @@
             // ePictureBox
             // 
             this.ePictureBox.Image = ((System.Drawing.Image)(resources.GetObject("ePictureBox.Image")));
-            this.ePictureBox.Location = new System.Drawing.Point(41, 96);
+            this.ePictureBox.Location = new System.Drawing.Point(63, 6);
             this.ePictureBox.Name = "ePictureBox";
             this.ePictureBox.Size = new System.Drawing.Size(145, 131);
             this.ePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -2834,7 +2841,7 @@
             // 
             // eHintButton
             // 
-            this.eHintButton.Location = new System.Drawing.Point(74, 238);
+            this.eHintButton.Location = new System.Drawing.Point(96, 148);
             this.eHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.eHintButton.Name = "eHintButton";
             this.eHintButton.Size = new System.Drawing.Size(82, 20);
@@ -2847,7 +2854,7 @@
             // 
             this.eLabel.AutoSize = true;
             this.eLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.eLabel.Location = new System.Drawing.Point(191, 96);
+            this.eLabel.Location = new System.Drawing.Point(213, 6);
             this.eLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.eLabel.Name = "eLabel";
             this.eLabel.Size = new System.Drawing.Size(120, 108);
@@ -2856,7 +2863,7 @@
             // 
             // eTextBox
             // 
-            this.eTextBox.Location = new System.Drawing.Point(209, 217);
+            this.eTextBox.Location = new System.Drawing.Point(231, 117);
             this.eTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.eTextBox.Name = "eTextBox";
             this.eTextBox.Size = new System.Drawing.Size(82, 20);
@@ -2864,7 +2871,7 @@
             // 
             // eCheckButton
             // 
-            this.eCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.eCheckButton.Location = new System.Drawing.Point(231, 148);
             this.eCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.eCheckButton.Name = "eCheckButton";
             this.eCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -2891,7 +2898,7 @@
             // kuPictureBox
             // 
             this.kuPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("kuPictureBox.Image")));
-            this.kuPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.kuPictureBox.Location = new System.Drawing.Point(63, 6);
             this.kuPictureBox.Name = "kuPictureBox";
             this.kuPictureBox.Size = new System.Drawing.Size(145, 131);
             this.kuPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -2901,7 +2908,7 @@
             // 
             // kuHintButton
             // 
-            this.kuHintButton.Location = new System.Drawing.Point(74, 238);
+            this.kuHintButton.Location = new System.Drawing.Point(96, 148);
             this.kuHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.kuHintButton.Name = "kuHintButton";
             this.kuHintButton.Size = new System.Drawing.Size(82, 20);
@@ -2914,7 +2921,7 @@
             // 
             this.kuLabel.AutoSize = true;
             this.kuLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kuLabel.Location = new System.Drawing.Point(191, 96);
+            this.kuLabel.Location = new System.Drawing.Point(213, 6);
             this.kuLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.kuLabel.Name = "kuLabel";
             this.kuLabel.Size = new System.Drawing.Size(93, 108);
@@ -2923,7 +2930,7 @@
             // 
             // kuTextBox
             // 
-            this.kuTextBox.Location = new System.Drawing.Point(209, 217);
+            this.kuTextBox.Location = new System.Drawing.Point(231, 117);
             this.kuTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.kuTextBox.Name = "kuTextBox";
             this.kuTextBox.Size = new System.Drawing.Size(82, 20);
@@ -2931,7 +2938,7 @@
             // 
             // kuCheckButton
             // 
-            this.kuCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.kuCheckButton.Location = new System.Drawing.Point(231, 148);
             this.kuCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.kuCheckButton.Name = "kuCheckButton";
             this.kuCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -2958,7 +2965,7 @@
             // iPictureBox
             // 
             this.iPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("iPictureBox.Image")));
-            this.iPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.iPictureBox.Location = new System.Drawing.Point(63, 6);
             this.iPictureBox.Name = "iPictureBox";
             this.iPictureBox.Size = new System.Drawing.Size(145, 131);
             this.iPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -2968,7 +2975,7 @@
             // 
             // iHintButton
             // 
-            this.iHintButton.Location = new System.Drawing.Point(74, 238);
+            this.iHintButton.Location = new System.Drawing.Point(96, 148);
             this.iHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.iHintButton.Name = "iHintButton";
             this.iHintButton.Size = new System.Drawing.Size(82, 20);
@@ -2981,7 +2988,7 @@
             // 
             this.iLabel.AutoSize = true;
             this.iLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iLabel.Location = new System.Drawing.Point(191, 96);
+            this.iLabel.Location = new System.Drawing.Point(213, 6);
             this.iLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.iLabel.Name = "iLabel";
             this.iLabel.Size = new System.Drawing.Size(123, 108);
@@ -2990,7 +2997,7 @@
             // 
             // iTextBox
             // 
-            this.iTextBox.Location = new System.Drawing.Point(209, 217);
+            this.iTextBox.Location = new System.Drawing.Point(231, 117);
             this.iTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.iTextBox.Name = "iTextBox";
             this.iTextBox.Size = new System.Drawing.Size(82, 20);
@@ -2998,7 +3005,7 @@
             // 
             // iCheckButton
             // 
-            this.iCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.iCheckButton.Location = new System.Drawing.Point(231, 148);
             this.iCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.iCheckButton.Name = "iCheckButton";
             this.iCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -3025,7 +3032,7 @@
             // rePictureBox
             // 
             this.rePictureBox.Image = ((System.Drawing.Image)(resources.GetObject("rePictureBox.Image")));
-            this.rePictureBox.Location = new System.Drawing.Point(41, 96);
+            this.rePictureBox.Location = new System.Drawing.Point(63, 6);
             this.rePictureBox.Name = "rePictureBox";
             this.rePictureBox.Size = new System.Drawing.Size(145, 131);
             this.rePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -3035,7 +3042,7 @@
             // 
             // reHintButton
             // 
-            this.reHintButton.Location = new System.Drawing.Point(74, 238);
+            this.reHintButton.Location = new System.Drawing.Point(96, 148);
             this.reHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.reHintButton.Name = "reHintButton";
             this.reHintButton.Size = new System.Drawing.Size(82, 20);
@@ -3048,7 +3055,7 @@
             // 
             this.reLabel.AutoSize = true;
             this.reLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.reLabel.Location = new System.Drawing.Point(191, 96);
+            this.reLabel.Location = new System.Drawing.Point(213, 6);
             this.reLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.reLabel.Name = "reLabel";
             this.reLabel.Size = new System.Drawing.Size(130, 108);
@@ -3057,7 +3064,7 @@
             // 
             // reTextBox
             // 
-            this.reTextBox.Location = new System.Drawing.Point(209, 217);
+            this.reTextBox.Location = new System.Drawing.Point(231, 117);
             this.reTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.reTextBox.Name = "reTextBox";
             this.reTextBox.Size = new System.Drawing.Size(82, 20);
@@ -3065,7 +3072,7 @@
             // 
             // reCheckButton
             // 
-            this.reCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.reCheckButton.Location = new System.Drawing.Point(231, 148);
             this.reCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.reCheckButton.Name = "reCheckButton";
             this.reCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -3092,7 +3099,7 @@
             // miPictureBox
             // 
             this.miPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("miPictureBox.Image")));
-            this.miPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.miPictureBox.Location = new System.Drawing.Point(63, 6);
             this.miPictureBox.Name = "miPictureBox";
             this.miPictureBox.Size = new System.Drawing.Size(145, 131);
             this.miPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -3102,7 +3109,7 @@
             // 
             // miHintButton
             // 
-            this.miHintButton.Location = new System.Drawing.Point(74, 238);
+            this.miHintButton.Location = new System.Drawing.Point(96, 148);
             this.miHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.miHintButton.Name = "miHintButton";
             this.miHintButton.Size = new System.Drawing.Size(82, 20);
@@ -3115,7 +3122,7 @@
             // 
             this.miLabel.AutoSize = true;
             this.miLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.miLabel.Location = new System.Drawing.Point(191, 96);
+            this.miLabel.Location = new System.Drawing.Point(213, 6);
             this.miLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.miLabel.Name = "miLabel";
             this.miLabel.Size = new System.Drawing.Size(130, 108);
@@ -3124,7 +3131,7 @@
             // 
             // miTextBox
             // 
-            this.miTextBox.Location = new System.Drawing.Point(209, 217);
+            this.miTextBox.Location = new System.Drawing.Point(231, 117);
             this.miTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.miTextBox.Name = "miTextBox";
             this.miTextBox.Size = new System.Drawing.Size(82, 20);
@@ -3132,7 +3139,7 @@
             // 
             // miCheckButton
             // 
-            this.miCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.miCheckButton.Location = new System.Drawing.Point(231, 148);
             this.miCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.miCheckButton.Name = "miCheckButton";
             this.miCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -3159,7 +3166,7 @@
             // roPictureBox
             // 
             this.roPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("roPictureBox.Image")));
-            this.roPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.roPictureBox.Location = new System.Drawing.Point(63, 6);
             this.roPictureBox.Name = "roPictureBox";
             this.roPictureBox.Size = new System.Drawing.Size(145, 131);
             this.roPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -3169,7 +3176,7 @@
             // 
             // roHintButton
             // 
-            this.roHintButton.Location = new System.Drawing.Point(74, 238);
+            this.roHintButton.Location = new System.Drawing.Point(96, 148);
             this.roHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.roHintButton.Name = "roHintButton";
             this.roHintButton.Size = new System.Drawing.Size(82, 20);
@@ -3182,7 +3189,7 @@
             // 
             this.roLabel.AutoSize = true;
             this.roLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.roLabel.Location = new System.Drawing.Point(191, 96);
+            this.roLabel.Location = new System.Drawing.Point(213, 6);
             this.roLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.roLabel.Name = "roLabel";
             this.roLabel.Size = new System.Drawing.Size(118, 108);
@@ -3191,7 +3198,7 @@
             // 
             // roTextBox
             // 
-            this.roTextBox.Location = new System.Drawing.Point(209, 217);
+            this.roTextBox.Location = new System.Drawing.Point(231, 117);
             this.roTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.roTextBox.Name = "roTextBox";
             this.roTextBox.Size = new System.Drawing.Size(82, 20);
@@ -3199,7 +3206,7 @@
             // 
             // roCheckButton
             // 
-            this.roCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.roCheckButton.Location = new System.Drawing.Point(231, 148);
             this.roCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.roCheckButton.Name = "roCheckButton";
             this.roCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -3226,7 +3233,7 @@
             // koPictureBox
             // 
             this.koPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("koPictureBox.Image")));
-            this.koPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.koPictureBox.Location = new System.Drawing.Point(63, 6);
             this.koPictureBox.Name = "koPictureBox";
             this.koPictureBox.Size = new System.Drawing.Size(145, 131);
             this.koPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -3236,7 +3243,7 @@
             // 
             // koHintButton
             // 
-            this.koHintButton.Location = new System.Drawing.Point(74, 238);
+            this.koHintButton.Location = new System.Drawing.Point(96, 148);
             this.koHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.koHintButton.Name = "koHintButton";
             this.koHintButton.Size = new System.Drawing.Size(82, 20);
@@ -3249,7 +3256,7 @@
             // 
             this.koLabel.AutoSize = true;
             this.koLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.koLabel.Location = new System.Drawing.Point(191, 96);
+            this.koLabel.Location = new System.Drawing.Point(213, 6);
             this.koLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.koLabel.Name = "koLabel";
             this.koLabel.Size = new System.Drawing.Size(111, 108);
@@ -3258,7 +3265,7 @@
             // 
             // koTextBox
             // 
-            this.koTextBox.Location = new System.Drawing.Point(209, 217);
+            this.koTextBox.Location = new System.Drawing.Point(231, 117);
             this.koTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.koTextBox.Name = "koTextBox";
             this.koTextBox.Size = new System.Drawing.Size(82, 20);
@@ -3266,7 +3273,7 @@
             // 
             // koCheckButton
             // 
-            this.koCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.koCheckButton.Location = new System.Drawing.Point(231, 148);
             this.koCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.koCheckButton.Name = "koCheckButton";
             this.koCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -3285,7 +3292,7 @@
             this.tabPage43.Location = new System.Drawing.Point(4, 22);
             this.tabPage43.Name = "tabPage43";
             this.tabPage43.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage43.Size = new System.Drawing.Size(380, 291);
+            this.tabPage43.Size = new System.Drawing.Size(380, 183);
             this.tabPage43.TabIndex = 42;
             this.tabPage43.Text = "tabPage43";
             this.tabPage43.UseVisualStyleBackColor = true;
@@ -3293,7 +3300,7 @@
             // toPictureBox
             // 
             this.toPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("toPictureBox.Image")));
-            this.toPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.toPictureBox.Location = new System.Drawing.Point(63, 6);
             this.toPictureBox.Name = "toPictureBox";
             this.toPictureBox.Size = new System.Drawing.Size(145, 131);
             this.toPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -3303,7 +3310,7 @@
             // 
             // toHintButton
             // 
-            this.toHintButton.Location = new System.Drawing.Point(74, 238);
+            this.toHintButton.Location = new System.Drawing.Point(96, 148);
             this.toHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.toHintButton.Name = "toHintButton";
             this.toHintButton.Size = new System.Drawing.Size(82, 20);
@@ -3316,7 +3323,7 @@
             // 
             this.toLabel.AutoSize = true;
             this.toLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toLabel.Location = new System.Drawing.Point(191, 96);
+            this.toLabel.Location = new System.Drawing.Point(213, 6);
             this.toLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.toLabel.Name = "toLabel";
             this.toLabel.Size = new System.Drawing.Size(105, 108);
@@ -3325,7 +3332,7 @@
             // 
             // toTextBox
             // 
-            this.toTextBox.Location = new System.Drawing.Point(209, 217);
+            this.toTextBox.Location = new System.Drawing.Point(231, 117);
             this.toTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.toTextBox.Name = "toTextBox";
             this.toTextBox.Size = new System.Drawing.Size(82, 20);
@@ -3333,7 +3340,7 @@
             // 
             // toCheckButton
             // 
-            this.toCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.toCheckButton.Location = new System.Drawing.Point(231, 148);
             this.toCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.toCheckButton.Name = "toCheckButton";
             this.toCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -3360,7 +3367,7 @@
             // hiPictureBox
             // 
             this.hiPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("hiPictureBox.Image")));
-            this.hiPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.hiPictureBox.Location = new System.Drawing.Point(63, 6);
             this.hiPictureBox.Name = "hiPictureBox";
             this.hiPictureBox.Size = new System.Drawing.Size(145, 131);
             this.hiPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -3370,7 +3377,7 @@
             // 
             // hiHintButton
             // 
-            this.hiHintButton.Location = new System.Drawing.Point(74, 238);
+            this.hiHintButton.Location = new System.Drawing.Point(96, 148);
             this.hiHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.hiHintButton.Name = "hiHintButton";
             this.hiHintButton.Size = new System.Drawing.Size(82, 20);
@@ -3383,7 +3390,7 @@
             // 
             this.hiLabel.AutoSize = true;
             this.hiLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hiLabel.Location = new System.Drawing.Point(191, 96);
+            this.hiLabel.Location = new System.Drawing.Point(213, 6);
             this.hiLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.hiLabel.Name = "hiLabel";
             this.hiLabel.Size = new System.Drawing.Size(123, 108);
@@ -3392,7 +3399,7 @@
             // 
             // hiTextBox
             // 
-            this.hiTextBox.Location = new System.Drawing.Point(209, 217);
+            this.hiTextBox.Location = new System.Drawing.Point(231, 117);
             this.hiTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.hiTextBox.Name = "hiTextBox";
             this.hiTextBox.Size = new System.Drawing.Size(82, 20);
@@ -3400,7 +3407,7 @@
             // 
             // hiCheckButton
             // 
-            this.hiCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.hiCheckButton.Location = new System.Drawing.Point(231, 148);
             this.hiCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.hiCheckButton.Name = "hiCheckButton";
             this.hiCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -3427,7 +3434,7 @@
             // naPictureBox
             // 
             this.naPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("naPictureBox.Image")));
-            this.naPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.naPictureBox.Location = new System.Drawing.Point(63, 6);
             this.naPictureBox.Name = "naPictureBox";
             this.naPictureBox.Size = new System.Drawing.Size(145, 131);
             this.naPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -3437,7 +3444,7 @@
             // 
             // naHintButton
             // 
-            this.naHintButton.Location = new System.Drawing.Point(74, 238);
+            this.naHintButton.Location = new System.Drawing.Point(96, 148);
             this.naHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.naHintButton.Name = "naHintButton";
             this.naHintButton.Size = new System.Drawing.Size(82, 20);
@@ -3450,7 +3457,7 @@
             // 
             this.naLabel.AutoSize = true;
             this.naLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.naLabel.Location = new System.Drawing.Point(191, 96);
+            this.naLabel.Location = new System.Drawing.Point(213, 6);
             this.naLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.naLabel.Name = "naLabel";
             this.naLabel.Size = new System.Drawing.Size(127, 108);
@@ -3459,7 +3466,7 @@
             // 
             // naTextBox
             // 
-            this.naTextBox.Location = new System.Drawing.Point(209, 217);
+            this.naTextBox.Location = new System.Drawing.Point(231, 117);
             this.naTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.naTextBox.Name = "naTextBox";
             this.naTextBox.Size = new System.Drawing.Size(82, 20);
@@ -3467,7 +3474,7 @@
             // 
             // naCheckButton
             // 
-            this.naCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.naCheckButton.Location = new System.Drawing.Point(231, 148);
             this.naCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.naCheckButton.Name = "naCheckButton";
             this.naCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -3494,7 +3501,7 @@
             // nPictureBox
             // 
             this.nPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("nPictureBox.Image")));
-            this.nPictureBox.Location = new System.Drawing.Point(41, 96);
+            this.nPictureBox.Location = new System.Drawing.Point(63, 6);
             this.nPictureBox.Name = "nPictureBox";
             this.nPictureBox.Size = new System.Drawing.Size(145, 131);
             this.nPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -3505,7 +3512,7 @@
             // nHintButton
             // 
             this.nHintButton.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.nHintButton.Location = new System.Drawing.Point(74, 238);
+            this.nHintButton.Location = new System.Drawing.Point(96, 148);
             this.nHintButton.Margin = new System.Windows.Forms.Padding(2);
             this.nHintButton.Name = "nHintButton";
             this.nHintButton.Size = new System.Drawing.Size(82, 20);
@@ -3518,7 +3525,7 @@
             // 
             this.nLabel.AutoSize = true;
             this.nLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nLabel.Location = new System.Drawing.Point(191, 96);
+            this.nLabel.Location = new System.Drawing.Point(213, 6);
             this.nLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.nLabel.Name = "nLabel";
             this.nLabel.Size = new System.Drawing.Size(123, 108);
@@ -3527,7 +3534,7 @@
             // 
             // nTextBox
             // 
-            this.nTextBox.Location = new System.Drawing.Point(209, 217);
+            this.nTextBox.Location = new System.Drawing.Point(231, 117);
             this.nTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.nTextBox.Name = "nTextBox";
             this.nTextBox.Size = new System.Drawing.Size(82, 20);
@@ -3535,7 +3542,7 @@
             // 
             // nCheckButton
             // 
-            this.nCheckButton.Location = new System.Drawing.Point(209, 241);
+            this.nCheckButton.Location = new System.Drawing.Point(231, 148);
             this.nCheckButton.Margin = new System.Windows.Forms.Padding(2);
             this.nCheckButton.Name = "nCheckButton";
             this.nCheckButton.Size = new System.Drawing.Size(82, 20);
@@ -3609,7 +3616,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(425, 586);
+            this.ClientSize = new System.Drawing.Size(425, 437);
             this.Controls.Add(this.Label_ResultMessage);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.startOverButton);

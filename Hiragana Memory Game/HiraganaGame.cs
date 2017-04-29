@@ -2215,5 +2215,15 @@ namespace Hiragana_Memory_Game
 
             tabControl1.SelectTab(0);
         }
+
+        private void noTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void aTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
