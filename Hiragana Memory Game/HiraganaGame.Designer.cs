@@ -521,7 +521,7 @@
             // 
             this.noLabel.AutoSize = true;
             this.noLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.noLabel.Location = new System.Drawing.Point(191, 30);
+            this.noLabel.Location = new System.Drawing.Point(191, 96);
             this.noLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.noLabel.Name = "noLabel";
             this.noLabel.Size = new System.Drawing.Size(123, 108);
@@ -569,7 +569,7 @@
             // 
             this.aLabel.AutoSize = true;
             this.aLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.aLabel.Location = new System.Drawing.Point(191, 30);
+            this.aLabel.Location = new System.Drawing.Point(191, 96);
             this.aLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.aLabel.Name = "aLabel";
             this.aLabel.Size = new System.Drawing.Size(123, 108);
@@ -636,7 +636,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(191, 30);
+            this.label1.Location = new System.Drawing.Point(191, 96);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(117, 108);
@@ -703,7 +703,7 @@
             // 
             this.suLabel.AutoSize = true;
             this.suLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.suLabel.Location = new System.Drawing.Point(191, 30);
+            this.suLabel.Location = new System.Drawing.Point(191, 96);
             this.suLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.suLabel.Name = "suLabel";
             this.suLabel.Size = new System.Drawing.Size(126, 108);
@@ -770,7 +770,7 @@
             // 
             this.teLabel.AutoSize = true;
             this.teLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.teLabel.Location = new System.Drawing.Point(191, 30);
+            this.teLabel.Location = new System.Drawing.Point(191, 96);
             this.teLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.teLabel.Name = "teLabel";
             this.teLabel.Size = new System.Drawing.Size(120, 108);
@@ -837,7 +837,7 @@
             // 
             this.kaLabel.AutoSize = true;
             this.kaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kaLabel.Location = new System.Drawing.Point(191, 30);
+            this.kaLabel.Location = new System.Drawing.Point(191, 96);
             this.kaLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.kaLabel.Name = "kaLabel";
             this.kaLabel.Size = new System.Drawing.Size(123, 108);
@@ -904,7 +904,7 @@
             // 
             this.shiLabel.AutoSize = true;
             this.shiLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.shiLabel.Location = new System.Drawing.Point(191, 30);
+            this.shiLabel.Location = new System.Drawing.Point(191, 96);
             this.shiLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.shiLabel.Name = "shiLabel";
             this.shiLabel.Size = new System.Drawing.Size(114, 108);
@@ -971,7 +971,7 @@
             // 
             this.tsuLabel.AutoSize = true;
             this.tsuLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tsuLabel.Location = new System.Drawing.Point(191, 30);
+            this.tsuLabel.Location = new System.Drawing.Point(191, 96);
             this.tsuLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.tsuLabel.Name = "tsuLabel";
             this.tsuLabel.Size = new System.Drawing.Size(120, 108);
@@ -1038,7 +1038,7 @@
             // 
             this.neLabel.AutoSize = true;
             this.neLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.neLabel.Location = new System.Drawing.Point(191, 30);
+            this.neLabel.Location = new System.Drawing.Point(194, 96);
             this.neLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.neLabel.Name = "neLabel";
             this.neLabel.Size = new System.Drawing.Size(130, 108);
@@ -1105,7 +1105,7 @@
             // 
             this.hoLabel.AutoSize = true;
             this.hoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hoLabel.Location = new System.Drawing.Point(191, 30);
+            this.hoLabel.Location = new System.Drawing.Point(191, 96);
             this.hoLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.hoLabel.Name = "hoLabel";
             this.hoLabel.Size = new System.Drawing.Size(127, 108);
@@ -1172,7 +1172,7 @@
             // 
             this.saLabel.AutoSize = true;
             this.saLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.saLabel.Location = new System.Drawing.Point(191, 30);
+            this.saLabel.Location = new System.Drawing.Point(191, 96);
             this.saLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.saLabel.Name = "saLabel";
             this.saLabel.Size = new System.Drawing.Size(111, 108);
@@ -1239,7 +1239,7 @@
             // 
             this.chiLabel.AutoSize = true;
             this.chiLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chiLabel.Location = new System.Drawing.Point(191, 30);
+            this.chiLabel.Location = new System.Drawing.Point(191, 96);
             this.chiLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.chiLabel.Name = "chiLabel";
             this.chiLabel.Size = new System.Drawing.Size(118, 108);
@@ -1306,7 +1306,7 @@
             // 
             this.nuLabel.AutoSize = true;
             this.nuLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nuLabel.Location = new System.Drawing.Point(191, 30);
+            this.nuLabel.Location = new System.Drawing.Point(191, 96);
             this.nuLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.nuLabel.Name = "nuLabel";
             this.nuLabel.Size = new System.Drawing.Size(126, 108);
@@ -1373,7 +1373,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(191, 30);
+            this.label12.Location = new System.Drawing.Point(191, 96);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(123, 108);
@@ -1440,7 +1440,7 @@
             // 
             this.moLabel.AutoSize = true;
             this.moLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.moLabel.Location = new System.Drawing.Point(191, 30);
+            this.moLabel.Location = new System.Drawing.Point(191, 96);
             this.moLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.moLabel.Name = "moLabel";
             this.moLabel.Size = new System.Drawing.Size(118, 108);
@@ -1507,7 +1507,7 @@
             // 
             this.taLabel.AutoSize = true;
             this.taLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.taLabel.Location = new System.Drawing.Point(191, 30);
+            this.taLabel.Location = new System.Drawing.Point(191, 96);
             this.taLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.taLabel.Name = "taLabel";
             this.taLabel.Size = new System.Drawing.Size(120, 108);
@@ -1574,7 +1574,7 @@
             // 
             this.niLabel.AutoSize = true;
             this.niLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.niLabel.Location = new System.Drawing.Point(191, 30);
+            this.niLabel.Location = new System.Drawing.Point(191, 96);
             this.niLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.niLabel.Name = "niLabel";
             this.niLabel.Size = new System.Drawing.Size(120, 108);
@@ -1641,7 +1641,7 @@
             // 
             this.huLabel.AutoSize = true;
             this.huLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.huLabel.Location = new System.Drawing.Point(191, 30);
+            this.huLabel.Location = new System.Drawing.Point(191, 96);
             this.huLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.huLabel.Name = "huLabel";
             this.huLabel.Size = new System.Drawing.Size(123, 108);
@@ -1708,7 +1708,7 @@
             // 
             this.meLabel.AutoSize = true;
             this.meLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.meLabel.Location = new System.Drawing.Point(191, 30);
+            this.meLabel.Location = new System.Drawing.Point(191, 96);
             this.meLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.meLabel.Name = "meLabel";
             this.meLabel.Size = new System.Drawing.Size(123, 108);
@@ -1775,7 +1775,7 @@
             // 
             this.yoLabel.AutoSize = true;
             this.yoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yoLabel.Location = new System.Drawing.Point(191, 30);
+            this.yoLabel.Location = new System.Drawing.Point(191, 96);
             this.yoLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.yoLabel.Name = "yoLabel";
             this.yoLabel.Size = new System.Drawing.Size(117, 108);
@@ -1842,7 +1842,7 @@
             // 
             this.keLabel.AutoSize = true;
             this.keLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.keLabel.Location = new System.Drawing.Point(191, 30);
+            this.keLabel.Location = new System.Drawing.Point(191, 96);
             this.keLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.keLabel.Name = "keLabel";
             this.keLabel.Size = new System.Drawing.Size(123, 108);
@@ -1909,7 +1909,7 @@
             // 
             this.soLabel.AutoSize = true;
             this.soLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.soLabel.Location = new System.Drawing.Point(191, 30);
+            this.soLabel.Location = new System.Drawing.Point(191, 96);
             this.soLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.soLabel.Name = "soLabel";
             this.soLabel.Size = new System.Drawing.Size(117, 108);
@@ -1976,7 +1976,7 @@
             // 
             this.uLabel.AutoSize = true;
             this.uLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uLabel.Location = new System.Drawing.Point(191, 30);
+            this.uLabel.Location = new System.Drawing.Point(191, 96);
             this.uLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.uLabel.Name = "uLabel";
             this.uLabel.Size = new System.Drawing.Size(102, 108);
@@ -2043,7 +2043,7 @@
             // 
             this.yuLabel.AutoSize = true;
             this.yuLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yuLabel.Location = new System.Drawing.Point(191, 30);
+            this.yuLabel.Location = new System.Drawing.Point(191, 96);
             this.yuLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.yuLabel.Name = "yuLabel";
             this.yuLabel.Size = new System.Drawing.Size(127, 108);
@@ -2110,7 +2110,7 @@
             // 
             this.waLabel.AutoSize = true;
             this.waLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.waLabel.Location = new System.Drawing.Point(191, 30);
+            this.waLabel.Location = new System.Drawing.Point(191, 96);
             this.waLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.waLabel.Name = "waLabel";
             this.waLabel.Size = new System.Drawing.Size(126, 108);
@@ -2177,7 +2177,7 @@
             // 
             this.muLabel.AutoSize = true;
             this.muLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.muLabel.Location = new System.Drawing.Point(191, 30);
+            this.muLabel.Location = new System.Drawing.Point(191, 96);
             this.muLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.muLabel.Name = "muLabel";
             this.muLabel.Size = new System.Drawing.Size(123, 108);
@@ -2244,7 +2244,7 @@
             // 
             this.haLabel.AutoSize = true;
             this.haLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.haLabel.Location = new System.Drawing.Point(191, 30);
+            this.haLabel.Location = new System.Drawing.Point(191, 96);
             this.haLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.haLabel.Name = "haLabel";
             this.haLabel.Size = new System.Drawing.Size(127, 108);
@@ -2311,7 +2311,7 @@
             // 
             this.yaLabel.AutoSize = true;
             this.yaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yaLabel.Location = new System.Drawing.Point(191, 30);
+            this.yaLabel.Location = new System.Drawing.Point(191, 96);
             this.yaLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.yaLabel.Name = "yaLabel";
             this.yaLabel.Size = new System.Drawing.Size(126, 108);
@@ -2378,7 +2378,7 @@
             // 
             this.riLabel.AutoSize = true;
             this.riLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.riLabel.Location = new System.Drawing.Point(191, 30);
+            this.riLabel.Location = new System.Drawing.Point(191, 96);
             this.riLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.riLabel.Name = "riLabel";
             this.riLabel.Size = new System.Drawing.Size(105, 108);
@@ -2445,7 +2445,7 @@
             // 
             this.woLabel.AutoSize = true;
             this.woLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.woLabel.Location = new System.Drawing.Point(191, 30);
+            this.woLabel.Location = new System.Drawing.Point(191, 96);
             this.woLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.woLabel.Name = "woLabel";
             this.woLabel.Size = new System.Drawing.Size(117, 108);
@@ -2512,7 +2512,7 @@
             // 
             this.maLabel.AutoSize = true;
             this.maLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maLabel.Location = new System.Drawing.Point(191, 30);
+            this.maLabel.Location = new System.Drawing.Point(191, 96);
             this.maLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.maLabel.Name = "maLabel";
             this.maLabel.Size = new System.Drawing.Size(117, 108);
@@ -2579,7 +2579,7 @@
             // 
             this.raLabel.AutoSize = true;
             this.raLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.raLabel.Location = new System.Drawing.Point(191, 30);
+            this.raLabel.Location = new System.Drawing.Point(191, 96);
             this.raLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.raLabel.Name = "raLabel";
             this.raLabel.Size = new System.Drawing.Size(111, 108);
@@ -2646,7 +2646,7 @@
             // 
             this.ruLabel.AutoSize = true;
             this.ruLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ruLabel.Location = new System.Drawing.Point(191, 30);
+            this.ruLabel.Location = new System.Drawing.Point(191, 96);
             this.ruLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.ruLabel.Name = "ruLabel";
             this.ruLabel.Size = new System.Drawing.Size(118, 108);
@@ -2713,7 +2713,7 @@
             // 
             this.seLabel.AutoSize = true;
             this.seLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.seLabel.Location = new System.Drawing.Point(191, 30);
+            this.seLabel.Location = new System.Drawing.Point(191, 96);
             this.seLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.seLabel.Name = "seLabel";
             this.seLabel.Size = new System.Drawing.Size(126, 108);
@@ -2780,7 +2780,7 @@
             // 
             this.oLabel.AutoSize = true;
             this.oLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.oLabel.Location = new System.Drawing.Point(191, 30);
+            this.oLabel.Location = new System.Drawing.Point(191, 96);
             this.oLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.oLabel.Name = "oLabel";
             this.oLabel.Size = new System.Drawing.Size(123, 108);
@@ -2847,7 +2847,7 @@
             // 
             this.eLabel.AutoSize = true;
             this.eLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.eLabel.Location = new System.Drawing.Point(191, 30);
+            this.eLabel.Location = new System.Drawing.Point(191, 96);
             this.eLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.eLabel.Name = "eLabel";
             this.eLabel.Size = new System.Drawing.Size(120, 108);
@@ -2914,7 +2914,7 @@
             // 
             this.kuLabel.AutoSize = true;
             this.kuLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kuLabel.Location = new System.Drawing.Point(191, 30);
+            this.kuLabel.Location = new System.Drawing.Point(191, 96);
             this.kuLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.kuLabel.Name = "kuLabel";
             this.kuLabel.Size = new System.Drawing.Size(93, 108);
@@ -2981,7 +2981,7 @@
             // 
             this.iLabel.AutoSize = true;
             this.iLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iLabel.Location = new System.Drawing.Point(191, 30);
+            this.iLabel.Location = new System.Drawing.Point(191, 96);
             this.iLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.iLabel.Name = "iLabel";
             this.iLabel.Size = new System.Drawing.Size(123, 108);
@@ -3048,7 +3048,7 @@
             // 
             this.reLabel.AutoSize = true;
             this.reLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.reLabel.Location = new System.Drawing.Point(191, 30);
+            this.reLabel.Location = new System.Drawing.Point(191, 96);
             this.reLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.reLabel.Name = "reLabel";
             this.reLabel.Size = new System.Drawing.Size(130, 108);
@@ -3115,7 +3115,7 @@
             // 
             this.miLabel.AutoSize = true;
             this.miLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.miLabel.Location = new System.Drawing.Point(191, 30);
+            this.miLabel.Location = new System.Drawing.Point(191, 96);
             this.miLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.miLabel.Name = "miLabel";
             this.miLabel.Size = new System.Drawing.Size(130, 108);
@@ -3182,7 +3182,7 @@
             // 
             this.roLabel.AutoSize = true;
             this.roLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.roLabel.Location = new System.Drawing.Point(191, 30);
+            this.roLabel.Location = new System.Drawing.Point(191, 96);
             this.roLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.roLabel.Name = "roLabel";
             this.roLabel.Size = new System.Drawing.Size(118, 108);
@@ -3249,7 +3249,7 @@
             // 
             this.koLabel.AutoSize = true;
             this.koLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.koLabel.Location = new System.Drawing.Point(191, 30);
+            this.koLabel.Location = new System.Drawing.Point(191, 96);
             this.koLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.koLabel.Name = "koLabel";
             this.koLabel.Size = new System.Drawing.Size(111, 108);
@@ -3316,7 +3316,7 @@
             // 
             this.toLabel.AutoSize = true;
             this.toLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toLabel.Location = new System.Drawing.Point(191, 30);
+            this.toLabel.Location = new System.Drawing.Point(191, 96);
             this.toLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.toLabel.Name = "toLabel";
             this.toLabel.Size = new System.Drawing.Size(105, 108);
@@ -3383,7 +3383,7 @@
             // 
             this.hiLabel.AutoSize = true;
             this.hiLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hiLabel.Location = new System.Drawing.Point(191, 30);
+            this.hiLabel.Location = new System.Drawing.Point(191, 96);
             this.hiLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.hiLabel.Name = "hiLabel";
             this.hiLabel.Size = new System.Drawing.Size(123, 108);
@@ -3450,7 +3450,7 @@
             // 
             this.naLabel.AutoSize = true;
             this.naLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.naLabel.Location = new System.Drawing.Point(191, 30);
+            this.naLabel.Location = new System.Drawing.Point(191, 96);
             this.naLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.naLabel.Name = "naLabel";
             this.naLabel.Size = new System.Drawing.Size(127, 108);
@@ -3518,7 +3518,7 @@
             // 
             this.nLabel.AutoSize = true;
             this.nLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nLabel.Location = new System.Drawing.Point(191, 30);
+            this.nLabel.Location = new System.Drawing.Point(191, 96);
             this.nLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.nLabel.Name = "nLabel";
             this.nLabel.Size = new System.Drawing.Size(123, 108);
@@ -3589,10 +3589,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Stencil Std", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(18, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(388, 36);
+            this.label2.Size = new System.Drawing.Size(328, 31);
             this.label2.TabIndex = 68;
             this.label2.Text = "Hiragana Memory Game";
             // 
