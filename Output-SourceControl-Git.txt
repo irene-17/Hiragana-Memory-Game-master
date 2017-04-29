@@ -1,0 +1,6 @@
+﻿Opening repositories:
+C:\Users\Brandon\Source\Repos\Hiragana-Memory-Game
+Commit 3b0e6d57 created locally in repository C:\Users\Brandon\Source\Repos\Hiragana-Memory-Game
+Error encountered while pushing to the remote repository: Response status code does not indicate success: 403 (Forbidden).
+Error encountered while pushing to the remote repository: Response status code does not indicate success: 403 (Forbidden).
+Error encountered while pushing to the remote repository: Response status code does not indicate success: 403 (Forbidden).
